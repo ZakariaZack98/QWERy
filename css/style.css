@@ -1,0 +1,177 @@
+/* =======Common CSS============ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+body {
+    background-color: black;
+}
+ul, li {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+a:hover {
+    opacity: 0.7;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+/* ========Typography CSS====== */
+.large-header {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 95%;
+    color: white;
+    margin-top: 37px;
+    text-transform: uppercase;
+}
+.small-header{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.medium-header {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95%;
+    color: white;
+    margin: 19px 0;
+    text-transform: uppercase;
+    line-height: 120%;
+}
+.regular-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin: 13px 0;
+}
+/* ========Navbar CSS========== */
+.navbar {
+    height: 0;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.navlinks ul {
+    display: flex;
+}
+.navlinks ul li a{
+    margin-left: 60px;
+    font-weight: 600;
+}
+.navlinks ul li a:hover {
+    color: rgb(238, 238, 238);
+}
+/* =========Banner CSS========= */
+#banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner .banner-wrapper {
+    padding: 462px 0;
+}
+.large-header span {
+    font-size: 88px;
+    font-weight: 400;
+    text-transform: none;
+}
+/* ==========Post CSS============ */
+.post-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    margin: 286px 0;
+}
+.post-texts a:hover {
+    opacity: 0.7;;
+}
+/* ==========Bromo CSS=========== */
+.bromo-wrapper {
+    text-align: center;
+    background-image: url(../images/promo.jpg);
+    padding: 560px 194px 33px;
+    margin: 295px 0;
+}
+/* ==========Footer Area========= */
+#footer .footer-wrapper {
+    display: flex;
+}
+#footer .footer-left {
+    width: 50%;
+}
+#footer .logo {
+    font-size: 48px;
+    font-weight: 700;
+}
+#footer .slogan {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 36px 0;
+}
+#footer .socials a {
+    font-size: 21px;
+    margin: 48px 29px 48px 0;
+}
+#footer .footer-right{
+    width: 50%;
+}
+#footer .explore {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    column-gap: 18px;
+}
+#footer .explore p {
+    font-size: 22px;
+    font-weight: 400;
+}
+#footer .explore button {
+    border: none;
+    padding: 20px 80px;
+    background-color: #FFC178;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    display: inline-block;
+}
+#footer .explore button a {
+    color: black;
+}
+#footer h3 {
+    color: #FFC178;
+    margin: 19px, 0;
+}
+#footer .footer-links {
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+#footer .footer-links ul {
+    font-size: 19px;
+    margin: 19px, 0;
+}
+.copyright p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+    opacity: 0.7;
+}
